@@ -1,0 +1,16 @@
+{
+    "folders": [
+        {
+            "path": "ALGoTest/Base App"
+        },
+        {
+            "path": "ALGoTest/.AL-Go"
+        },
+        {
+            "path": "ALGoTest/Test App"
+        }
+    ],
+    "settings": {
+        "powershell.cwd": ".AL-Go"
+    }
+}
