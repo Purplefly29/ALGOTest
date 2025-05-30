@@ -8,6 +8,7 @@ codeunit 55100 PageExtensionsTest
         LibraryVariableStorage: Codeunit "Library - Variable Storage";
 
     [Test]
+    [HandlerFunctions('MessageHandler')]
     procedure TestVendorListExtensionMessage()
     var
         VendorListPage: TestPage "Vendor List";
@@ -24,6 +25,7 @@ codeunit 55100 PageExtensionsTest
     end;
 
     [Test]
+    [HandlerFunctions('MessageHandler')]
     procedure TestItemListExtensionMessage()
     var
         ItemListPage: TestPage "Item List";
@@ -40,6 +42,7 @@ codeunit 55100 PageExtensionsTest
     end;
 
     [Test]
+    [HandlerFunctions('MessageHandler')]
     procedure TestProjectListExtensionMessage()
     var
         JobListPage: TestPage "Job List";
