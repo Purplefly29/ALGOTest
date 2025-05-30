@@ -6,5 +6,5 @@ pageextension 55001 VendorListExt extends "Vendor List"
     end;
 
     var
-        HelloWorldLbl: Label 'App published: Hello Welt', Comment = 'Message displayed when opening Vendor List page';
+        HelloWorldLbl: Label 'App published: Hello World', Comment = 'Message displayed when opening Vendor List page';
 }

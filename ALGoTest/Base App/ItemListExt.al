@@ -6,5 +6,5 @@ pageextension 55002 ItemListExt extends "Item List"
     end;
 
     var
-        HelloWorldLbl: Label 'App published: Hello Welt', Comment = 'Message displayed when opening Item List page';
+        HelloWorldLbl: Label 'App published: Hello World', Comment = 'Message displayed when opening Item List page';
 }

@@ -4,25 +4,25 @@
     <body>
       <group id="body">
         <trans-unit id="PageExtension 2465026088 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>App published: Hello Welt</source>
+          <source>App published: Hello World</source>
           <target>App published: Hello World</target>
           <note from="Developer" annotates="general" priority="2">Message displayed when opening Customer List page</note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension CustomerListExt - Property HelloWorldLbl</note>
         </trans-unit>
         <trans-unit id="PageExtension 1651926113 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>App published: Hello Welt</source>
+          <source>App published: Hello World</source>
           <target>App published: Hello World</target>
           <note from="Developer" annotates="general" priority="2">Message displayed when opening Vendor List page</note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension VendorListExt - Property HelloWorldLbl</note>
         </trans-unit>
         <trans-unit id="PageExtension 1785924938 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>App published: Hello Welt</source>
+          <source>App published: Hello World</source>
           <target>App published: Hello World</target>
           <note from="Developer" annotates="general" priority="2">Message displayed when opening Item List page</note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension ItemListExt - Property HelloWorldLbl</note>
         </trans-unit>
         <trans-unit id="PageExtension 2020527563 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>App published: Hello Welt</source>
+          <source>App published: Hello World</source>
           <target>App published: Hello World</target>
           <note from="Developer" annotates="general" priority="2">Message displayed when opening Project List page</note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension ProjectListExt - Property HelloWorldLbl</note>

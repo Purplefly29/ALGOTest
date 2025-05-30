@@ -10,6 +10,6 @@ pageextension 55000 CustomerListExt extends "Customer List"
     end;
 
     var
-        HelloWorldLbl: Label 'App published: Hello Welt', Comment = 'Message displayed when opening Customer List page';
+        HelloWorldLbl: Label 'App published: Hello World', Comment = 'Message displayed when opening Customer List page';
 }
 
