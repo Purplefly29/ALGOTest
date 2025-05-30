@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="de-DE" original="Base App">
+    <body>
+      <group id="body">
+        <trans-unit id="PageExtension 2465026088 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>App published: Hello Welt</source>
+          <target>App veröffentlicht: Hallo Welt</target>
+          <note from="Developer" annotates="general" priority="2">Message displayed when opening Customer List page</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension CustomerListExt - Property HelloWorldLbl</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1651926113 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>App published: Hello Welt</source>
+          <target>App veröffentlicht: Hallo Welt</target>
+          <note from="Developer" annotates="general" priority="2">Message displayed when opening Vendor List page</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension VendorListExt - Property HelloWorldLbl</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1785924938 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>App published: Hello Welt</source>
+          <target>App veröffentlicht: Hallo Welt</target>
+          <note from="Developer" annotates="general" priority="2">Message displayed when opening Item List page</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ItemListExt - Property HelloWorldLbl</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 2020527563 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>App published: Hello Welt</source>
+          <target>App veröffentlicht: Hallo Welt</target>
+          <note from="Developer" annotates="general" priority="2">Message displayed when opening Project List page</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ProjectListExt - Property HelloWorldLbl</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

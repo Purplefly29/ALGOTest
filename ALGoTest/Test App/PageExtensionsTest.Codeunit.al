@@ -9,6 +9,23 @@ codeunit 55100 PageExtensionsTest
 
     [Test]
     [HandlerFunctions('MessageHandler')]
+    procedure TestCustomerListExtensionMessage()
+    var
+        CustomerListPage: TestPage "Customer List";
+    begin
+        // [GIVEN] The Customer List page extension exists
+        // [WHEN] Opening the Customer List page
+        LibraryVariableStorage.Clear();
+        CustomerListPage.OpenView();
+
+        // [THEN] The "Hello World" message should be displayed
+        Assert.AreEqual('App published: Hello World', LibraryVariableStorage.DequeueText(), 'Wrong message displayed for Customer List');
+
+        CustomerListPage.Close();
+    end;
+
+    [Test]
+    [HandlerFunctions('MessageHandler')]
     procedure TestVendorListExtensionMessage()
     var
         VendorListPage: TestPage "Vendor List";
@@ -18,8 +35,8 @@ codeunit 55100 PageExtensionsTest
         LibraryVariableStorage.Clear();
         VendorListPage.OpenView();
 
-        // [THEN] The "Hello Welt" message should be displayed
-        Assert.AreEqual('App published: Hello Welt', LibraryVariableStorage.DequeueText(), 'Wrong message displayed for Vendor List');
+        // [THEN] The "Hello World" message should be displayed
+        Assert.AreEqual('App published: Hello World', LibraryVariableStorage.DequeueText(), 'Wrong message displayed for Vendor List');
 
         VendorListPage.Close();
     end;
@@ -35,8 +52,8 @@ codeunit 55100 PageExtensionsTest
         LibraryVariableStorage.Clear();
         ItemListPage.OpenView();
 
-        // [THEN] The "Hello Welt" message should be displayed
-        Assert.AreEqual('App published: Hello Welt', LibraryVariableStorage.DequeueText(), 'Wrong message displayed for Item List');
+        // [THEN] The "Hello World" message should be displayed
+        Assert.AreEqual('App published: Hello World', LibraryVariableStorage.DequeueText(), 'Wrong message displayed for Item List');
 
         ItemListPage.Close();
     end;
@@ -52,8 +69,8 @@ codeunit 55100 PageExtensionsTest
         LibraryVariableStorage.Clear();
         JobListPage.OpenView();
 
-        // [THEN] The "Hello Welt" message should be displayed
-        Assert.AreEqual('App published: Hello Welt', LibraryVariableStorage.DequeueText(), 'Wrong message displayed for Project List');
+        // [THEN] The "Hello World" message should be displayed
+        Assert.AreEqual('App published: Hello World', LibraryVariableStorage.DequeueText(), 'Wrong message displayed for Project List');
 
         JobListPage.Close();
     end;

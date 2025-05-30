@@ -20,6 +20,12 @@
       "to": 55099
     }
   ],
+  "supportedLocales": [
+    "en-US",
+    "de-DE", 
+    "fr-FR",
+    "es-ES"
+  ],
   "features": [
     "NoImplicitWith"
   ],
