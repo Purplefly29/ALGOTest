@@ -1,5 +1,4 @@
 {
-  "version": "0.2.0",
   "configurations": [
     {
       "type": "al",
@@ -11,5 +10,6 @@
       "tenant": "default",
       "authentication": "UserPassword"
     }
-  ]
+  ],
+  "version": "0.2.0"
 }

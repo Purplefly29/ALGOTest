@@ -16,10 +16,10 @@ codeunit 55100 PageExtensionsTest
         // [WHEN] Opening the Vendor List page
         LibraryVariableStorage.Clear();
         VendorListPage.OpenView();
-        
+
         // [THEN] The "Hello Welt" message should be displayed
         Assert.AreEqual('App published: Hello Welt', LibraryVariableStorage.DequeueText(), 'Wrong message displayed for Vendor List');
-        
+
         VendorListPage.Close();
     end;
 
@@ -32,10 +32,10 @@ codeunit 55100 PageExtensionsTest
         // [WHEN] Opening the Item List page
         LibraryVariableStorage.Clear();
         ItemListPage.OpenView();
-        
+
         // [THEN] The "Hello Welt" message should be displayed
         Assert.AreEqual('App published: Hello Welt', LibraryVariableStorage.DequeueText(), 'Wrong message displayed for Item List');
-        
+
         ItemListPage.Close();
     end;
 
@@ -48,10 +48,10 @@ codeunit 55100 PageExtensionsTest
         // [WHEN] Opening the Job List page
         LibraryVariableStorage.Clear();
         JobListPage.OpenView();
-        
+
         // [THEN] The "Hello Welt" message should be displayed
         Assert.AreEqual('App published: Hello Welt', LibraryVariableStorage.DequeueText(), 'Wrong message displayed for Project List');
-        
+
         JobListPage.Close();
     end;
 
