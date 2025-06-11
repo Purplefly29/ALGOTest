@@ -27,6 +27,30 @@
           <note from="Developer" annotates="general" priority="2">Message displayed when opening Project List page</note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension ProjectListExt - Property HelloWorldLbl</note>
         </trans-unit>
+        <trans-unit id="TableExtension 55004 - Field 55000 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Swiss Warehouse Dealer Price</source>
+          <target>Prix Revendeur Entrepôt CH</target>
+          <note from="Developer" annotates="general" priority="2">Caption for Swiss Warehouse Dealer Price field</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ItemTableExt - Field Swiss Warehouse Dealer Price - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 55004 - Field 55001 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Swiss Warehouse Stock</source>
+          <target>Stock Entrepôt CH</target>
+          <note from="Developer" annotates="general" priority="2">Caption for Swiss Warehouse Stock field</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension ItemTableExt - Field Swiss Warehouse Stock - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 55005 - Control 55000 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the dealer price charged for purchasing the item in the webshop for delivery from the warehouse in Switzerland.</source>
+          <target>Spécifie le prix revendeur facturé pour l'achat de l'article dans la boutique en ligne pour la livraison depuis l'entrepôt en Suisse.</target>
+          <note from="Developer" annotates="general" priority="2">ToolTip for Swiss Warehouse Dealer Price field</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ItemCardExt - Control Swiss Warehouse Dealer Price - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 55005 - Control 55001 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the inventory stock of the item in the warehouse in Switzerland.</source>
+          <target>Spécifie le stock d'inventaire de l'article dans l'entrepôt en Suisse.</target>
+          <note from="Developer" annotates="general" priority="2">ToolTip for Swiss Warehouse Stock field</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension ItemCardExt - Control Swiss Warehouse Stock - Property ToolTip</note>
+        </trans-unit>
       </group>
     </body>
   </file>
