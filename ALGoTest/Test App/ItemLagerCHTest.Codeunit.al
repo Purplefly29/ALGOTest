@@ -27,6 +27,45 @@ codeunit 55101 ItemLagerCHTest
     end;
 
     [Test]
+    procedure TestArtikelstammFieldsExist()
+    var
+        Item: Record Item;
+    begin
+        // [GIVEN] An item record
+        LibraryInventory.CreateItem(Item);
+
+        // [WHEN] Setting values for Artikelstamm fields
+        Item."EAN" := '1234567890123456789';
+        Item."Inventory HAUPT" := 100.0;
+        Item."Description 3" := 'Test Description 3';
+        Item."Shipping Rate %" := 5.5;
+        Item."Duty Costs %" := 3.2;
+        Item."Qty. on Sales Quote" := 25.0;
+        Item."Last Purchase Date" := Today();
+        Item."Assembly (Qty.) without C.Memo" := 15.0;
+        Item."Asm. (UnitPrice) without C.Mem" := 45.75;
+        Item."Currency Code" := 'EUR';
+        Item."Direct Unit Cost" := 12.50;
+        Item."Blocked2" := true;
+        Item.Modify();
+
+        // [THEN] The values should be persisted correctly
+        Item.Get(Item."No.");
+        Assert.AreEqual('1234567890123456789', Item."EAN", 'EAN field not working correctly');
+        Assert.AreEqual(100.0, Item."Inventory HAUPT", 'Inventory HAUPT field not working correctly');
+        Assert.AreEqual('Test Description 3', Item."Description 3", 'Description 3 field not working correctly');
+        Assert.AreEqual(5.5, Item."Shipping Rate %", 'Shipping Rate % field not working correctly');
+        Assert.AreEqual(3.2, Item."Duty Costs %", 'Duty Costs % field not working correctly');
+        Assert.AreEqual(25.0, Item."Qty. on Sales Quote", 'Qty. on Sales Quote field not working correctly');
+        Assert.AreEqual(Today(), Item."Last Purchase Date", 'Last Purchase Date field not working correctly');
+        Assert.AreEqual(15.0, Item."Assembly (Qty.) without C.Memo", 'Assembly Qty field not working correctly');
+        Assert.AreEqual(45.75, Item."Asm. (UnitPrice) without C.Mem", 'Assembly UnitPrice field not working correctly');
+        Assert.AreEqual('EUR', Item."Currency Code", 'Currency Code field not working correctly');
+        Assert.AreEqual(12.50, Item."Direct Unit Cost", 'Direct Unit Cost field not working correctly');
+        Assert.AreEqual(true, Item."Blocked2", 'Blocked2 field not working correctly');
+    end;
+
+    [Test]
     procedure TestItemCardExtensionFieldsVisible()
     var
         Item: Record Item;
