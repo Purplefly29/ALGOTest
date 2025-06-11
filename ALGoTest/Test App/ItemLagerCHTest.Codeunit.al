@@ -66,7 +66,7 @@ codeunit 55101 ItemLagerCHTest
                      '<Item>' +
                      '<nummer>' + Item."No." + '</nummer>' +
                      '<bestandlagerch>45</bestandlagerch>' +
-                     '<verkaufspreishändlerlagerch>28.00</verkaufspreishändlerlagerch>' +
+                     '<verkaufspreishaendlerlagerch>28.00</verkaufspreishaendlerlagerch>' +
                      '</Item>' +
                      '</Root>';
 

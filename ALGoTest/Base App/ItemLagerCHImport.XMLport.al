@@ -15,7 +15,7 @@ xmlport 55006 "Item Lager-CH Import"
                 fieldelement(bestandlagerch; Item."Swiss Warehouse Stock")
                 {
                 }
-                fieldelement(verkaufspreishändlerlagerch; Item."Swiss Warehouse Dealer Price")
+                fieldelement(verkaufspreishaendlerlagerch; Item."Swiss Warehouse Dealer Price")
                 {
                 }
                 

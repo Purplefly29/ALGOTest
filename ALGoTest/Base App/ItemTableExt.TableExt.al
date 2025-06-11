@@ -11,6 +11,7 @@ tableextension 55004 ItemTableExt extends Item
         {
             DataClassification = CustomerContent;
             Caption = 'Swiss Warehouse Stock';
+            DecimalPlaces = 0:0;
         }
     }
 }
