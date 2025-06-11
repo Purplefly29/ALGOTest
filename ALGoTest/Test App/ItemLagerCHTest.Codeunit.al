@@ -47,6 +47,8 @@ codeunit 55101 ItemLagerCHTest
         Item."Currency Code" := 'EUR';
         Item."Direct Unit Cost" := 12.50;
         Item."Blocked2" := true;
+        Item."Sum Efforts Hours" := 10.5;
+        Item."Sum Efforts LT" := 2.5;
         Item.Modify();
 
         // [THEN] The values should be persisted correctly
@@ -63,6 +65,8 @@ codeunit 55101 ItemLagerCHTest
         Assert.AreEqual('EUR', Item."Currency Code", 'Currency Code field not working correctly');
         Assert.AreEqual(12.50, Item."Direct Unit Cost", 'Direct Unit Cost field not working correctly');
         Assert.AreEqual(true, Item."Blocked2", 'Blocked2 field not working correctly');
+        Assert.AreEqual(10.5, Item."Sum Efforts Hours", 'Sum Efforts Hours field not working correctly');
+        Assert.AreEqual(2.5, Item."Sum Efforts LT", 'Sum Efforts LT field not working correctly');
     end;
 
     [Test]

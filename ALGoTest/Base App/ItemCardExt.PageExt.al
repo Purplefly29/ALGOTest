@@ -89,6 +89,16 @@ pageextension 55005 ItemCardExt extends "Item Card"
                 ApplicationArea = All;
                 ToolTip = 'Specifies if the item is blocked.';
             }
+            field("Sum Efforts Hours"; Rec."Sum Efforts Hours")
+            {
+                ApplicationArea = All;
+                ToolTip = 'Specifies the sum of efforts in hours.';
+            }
+            field("Sum Efforts LT"; Rec."Sum Efforts LT")
+            {
+                ApplicationArea = All;
+                ToolTip = 'Specifies the sum of efforts in LT.';
+            }
         }
     }
 }

@@ -73,5 +73,15 @@ tableextension 55004 ItemTableExt extends Item
             DataClassification = CustomerContent;
             Caption = 'Blocked2';
         }
+        field(55050; "Sum Efforts Hours"; Decimal)
+        {
+            DataClassification = CustomerContent;
+            Caption = 'Summe Aufwände in Stunden';
+        }
+        field(55051; "Sum Efforts LT"; Decimal)
+        {
+            DataClassification = CustomerContent;
+            Caption = 'Summe Aufwände in LT';
+        }
     }
 }
