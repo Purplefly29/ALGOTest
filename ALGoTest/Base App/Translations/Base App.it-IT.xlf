@@ -1,53 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" source-language="en-US" target-language="de-DE" original="Base App">
+  <file datatype="xml" source-language="en-US" target-language="it-IT" original="Base App">
     <body>
       <group id="body">
         <trans-unit id="PageExtension 2465026088 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>App published: Hello World</source>
-          <target>App veröffentlicht: Hallo Welt</target>
+          <target>App pubblicata: Ciao Mondo</target>
           <note from="Developer" annotates="general" priority="2">Message displayed when opening Customer List page</note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension CustomerListExt - Property HelloWorldLbl</note>
         </trans-unit>
         <trans-unit id="PageExtension 1651926113 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>App published: Hello World</source>
-          <target>App veröffentlicht: Hallo Welt</target>
+          <target>App pubblicata: Ciao Mondo</target>
           <note from="Developer" annotates="general" priority="2">Message displayed when opening Vendor List page</note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension VendorListExt - Property HelloWorldLbl</note>
         </trans-unit>
         <trans-unit id="PageExtension 1785924938 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>App published: Hello World</source>
-          <target>App veröffentlicht: Hallo Welt</target>
+          <target>App pubblicata: Ciao Mondo</target>
           <note from="Developer" annotates="general" priority="2">Message displayed when opening Item List page</note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension ItemListExt - Property HelloWorldLbl</note>
         </trans-unit>
         <trans-unit id="PageExtension 2020527563 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>App published: Hello World</source>
-          <target>App veröffentlicht: Hallo Welt</target>
+          <target>App pubblicata: Ciao Mondo</target>
           <note from="Developer" annotates="general" priority="2">Message displayed when opening Project List page</note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension ProjectListExt - Property HelloWorldLbl</note>
         </trans-unit>
         <trans-unit id="TableExtension 55004 - Field 55000 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Swiss Warehouse Dealer Price</source>
-          <target>Händlerpreis Lager-CH</target>
+          <target>Prezzo Rivenditore Magazzino CH</target>
           <note from="Developer" annotates="general" priority="2">Caption for Swiss Warehouse Dealer Price field</note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension ItemTableExt - Field Swiss Warehouse Dealer Price - Property Caption</note>
         </trans-unit>
         <trans-unit id="TableExtension 55004 - Field 55001 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Swiss Warehouse Stock</source>
-          <target>Bestand Lager-CH</target>
+          <target>Giacenza Magazzino CH</target>
           <note from="Developer" annotates="general" priority="2">Caption for Swiss Warehouse Stock field</note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension ItemTableExt - Field Swiss Warehouse Stock - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 55005 - Control 55000 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the dealer price charged for purchasing the item in the webshop for delivery from the warehouse in Switzerland.</source>
-          <target>Gibt den Händlerpreis an, welcher für den Bezug des Artikels im Webshop für die Belieferung aus dem Lager in der Schweiz fällig wird.</target>
+          <target>Specifica il prezzo rivenditore addebitato per l'acquisto dell'articolo nel negozio online per la consegna dal magazzino in Svizzera.</target>
           <note from="Developer" annotates="general" priority="2">ToolTip for Swiss Warehouse Dealer Price field</note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension ItemCardExt - Control Swiss Warehouse Dealer Price - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 55005 - Control 55001 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
           <source>Specifies the inventory stock of the item in the warehouse in Switzerland.</source>
-          <target>Gibt den Lagerbestand des Artikel im Lager in der Schweiz an.</target>
+          <target>Specifica la giacenza di magazzino dell'articolo nel magazzino in Svizzera.</target>
           <note from="Developer" annotates="general" priority="2">ToolTip for Swiss Warehouse Stock field</note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension ItemCardExt - Control Swiss Warehouse Stock - Property ToolTip</note>
         </trans-unit>
