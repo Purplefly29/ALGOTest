@@ -12,10 +12,10 @@ xmlport 55006 "Item Lager-CH Import"
                 fieldelement(nummer; Item."No.")
                 {
                 }
-                fieldelement(bestandlagerch; Item."Bestand Lager-CH")
+                fieldelement(bestandlagerch; Item."Swiss Warehouse Stock")
                 {
                 }
-                fieldelement(verkaufspreishändlerlagerch; Item."Händlerpreis Lager-CH")
+                fieldelement(verkaufspreishändlerlagerch; Item."Swiss Warehouse Dealer Price")
                 {
                 }
                 
@@ -28,8 +28,8 @@ xmlport 55006 "Item Lager-CH Import"
                         currXMLport.Skip()
                     else begin
                         // Update existing item
-                        ExistingItem."Bestand Lager-CH" := Item."Bestand Lager-CH";
-                        ExistingItem."Händlerpreis Lager-CH" := Item."Händlerpreis Lager-CH";
+                        ExistingItem."Swiss Warehouse Stock" := Item."Swiss Warehouse Stock";
+                        ExistingItem."Swiss Warehouse Dealer Price" := Item."Swiss Warehouse Dealer Price";
                         ExistingItem.Modify();
                         currXMLport.Skip(); // Skip the insert since we already updated
                     end;

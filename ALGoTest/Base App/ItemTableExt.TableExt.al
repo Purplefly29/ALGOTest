@@ -2,15 +2,21 @@ tableextension 55004 ItemTableExt extends Item
 {
     fields
     {
-        field(55000; "Händlerpreis Lager-CH"; Decimal)
+        field(55000; "Swiss Warehouse Dealer Price"; Decimal)
         {
             DataClassification = CustomerContent;
-            Caption = 'Händlerpreis Lager-CH';
+            Caption = 'Swiss Warehouse Dealer Price';
+            CaptionML = ENU='Swiss Warehouse Dealer Price',
+                       DEU='Händlerpreis Lager-CH',
+                       ITA='Prezzo Rivenditore Magazzino CH';
         }
-        field(55001; "Bestand Lager-CH"; Decimal)
+        field(55001; "Swiss Warehouse Stock"; Decimal)
         {
             DataClassification = CustomerContent;
-            Caption = 'Bestand Lager-CH';
+            Caption = 'Swiss Warehouse Stock';
+            CaptionML = ENU='Swiss Warehouse Stock',
+                       DEU='Bestand Lager-CH',
+                       ITA='Giacenza Magazzino CH';
         }
     }
 }

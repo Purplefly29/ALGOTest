@@ -16,14 +16,14 @@ codeunit 55101 ItemLagerCHTest
         LibraryInventory.CreateItem(Item);
 
         // [WHEN] Setting values for Lager-CH fields
-        Item."Händlerpreis Lager-CH" := 28.00;
-        Item."Bestand Lager-CH" := 45.00;
+        Item."Swiss Warehouse Dealer Price" := 28.00;
+        Item."Swiss Warehouse Stock" := 45.00;
         Item.Modify();
 
         // [THEN] The values should be persisted correctly
         Item.Get(Item."No.");
-        Assert.AreEqual(28.00, Item."Händlerpreis Lager-CH", 'Händlerpreis Lager-CH field not working correctly');
-        Assert.AreEqual(45.00, Item."Bestand Lager-CH", 'Bestand Lager-CH field not working correctly');
+        Assert.AreEqual(28.00, Item."Swiss Warehouse Dealer Price", 'Swiss Warehouse Dealer Price field not working correctly');
+        Assert.AreEqual(45.00, Item."Swiss Warehouse Stock", 'Swiss Warehouse Stock field not working correctly');
     end;
 
     [Test]
@@ -40,10 +40,10 @@ codeunit 55101 ItemLagerCHTest
         ItemCardPage.Filter.SetFilter("No.", Item."No.");
         
         // [THEN] The Lager-CH fields should be accessible
-        // Note: "Händlerpreis Lager-CH" has Visible = false, so we only test if it exists
-        // "Bestand Lager-CH" should be visible and accessible
-        ItemCardPage."Bestand Lager-CH".SetValue(45.00);
-        Assert.AreEqual('45', ItemCardPage."Bestand Lager-CH".Value, 'Bestand Lager-CH field not accessible on Item Card');
+        // Note: "Swiss Warehouse Dealer Price" has Visible = false, so we only test if it exists
+        // "Swiss Warehouse Stock" should be visible and accessible
+        ItemCardPage."Swiss Warehouse Stock".SetValue(45.00);
+        Assert.AreEqual('45', ItemCardPage."Swiss Warehouse Stock".Value, 'Swiss Warehouse Stock field not accessible on Item Card');
         
         ItemCardPage.Close();
     end;
@@ -79,7 +79,7 @@ codeunit 55101 ItemLagerCHTest
 
         // [THEN] The item should have updated values
         Item.Get(Item."No.");
-        Assert.AreEqual(45.00, Item."Bestand Lager-CH", 'XMLport import failed for Bestand Lager-CH');
-        Assert.AreEqual(28.00, Item."Händlerpreis Lager-CH", 'XMLport import failed for Händlerpreis Lager-CH');
+        Assert.AreEqual(45.00, Item."Swiss Warehouse Stock", 'XMLport import failed for Swiss Warehouse Stock');
+        Assert.AreEqual(28.00, Item."Swiss Warehouse Dealer Price", 'XMLport import failed for Swiss Warehouse Dealer Price');
     end;
 }
