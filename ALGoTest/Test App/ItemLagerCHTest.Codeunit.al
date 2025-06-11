@@ -1,4 +1,4 @@
-codeunit 55101 ItemLagerCHTest
+codeunit 55101 ItemLagerCHTestTSTJTISHB
 {
     Subtype = Test;
     TestPermissions = Disabled;

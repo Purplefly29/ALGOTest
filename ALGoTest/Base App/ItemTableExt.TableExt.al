@@ -1,4 +1,4 @@
-tableextension 55004 ItemTableExt extends Item
+tableextension 55004 ItemTableExtJTISHB extends Item
 {
     fields
     {

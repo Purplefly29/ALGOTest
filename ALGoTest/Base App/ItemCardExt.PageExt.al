@@ -1,4 +1,4 @@
-pageextension 55005 ItemCardExt extends "Item Card"
+pageextension 55005 ItemCardExtJTISHB extends "Item Card"
 {
     layout
     {

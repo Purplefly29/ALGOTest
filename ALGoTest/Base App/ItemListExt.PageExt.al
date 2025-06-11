@@ -1,4 +1,4 @@
-pageextension 55002 ItemListExt extends "Item List"
+pageextension 55002 ItemListExtJTISHB extends "Item List"
 {
     layout
     {
