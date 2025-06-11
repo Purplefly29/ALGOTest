@@ -24,7 +24,8 @@
     "en-US",
     "de-DE", 
     "fr-FR",
-    "es-ES"
+    "es-ES",
+    "it-IT"
   ],
   "features": [
     "NoImplicitWith"
