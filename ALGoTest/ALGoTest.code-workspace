@@ -1,10 +1,19 @@
 {
   "folders": [
     {
+      "name": "Base App",
       "path": "Base App"
     },
     {
+      "name": "Test App",
+      "path": "Test App"
+    },
+    {
+      "name": ".AL-Go",
       "path": ".AL-Go"
+    },
+    {
+      "path": "../.github"
     }
   ],
   "settings": {}
