@@ -32,18 +32,19 @@ codeunit 55101 ItemLagerCHTest
         Item: Record Item;
         ItemCardPage: TestPage "Item Card";
     begin
-        // [GIVEN] An item exists
+        // [GIVEN] An item exists with Swiss warehouse data
         LibraryInventory.CreateItem(Item);
+        Item."Swiss Warehouse Stock" := 45.00;
+        Item."Swiss Warehouse Dealer Price" := 28.00;
+        Item.Modify();
         
         // [WHEN] Opening the Item Card page
-        ItemCardPage.OpenView();
-        ItemCardPage.Filter.SetFilter("No.", Item."No.");
+        ItemCardPage.OpenEdit();
+        ItemCardPage.GoToRecord(Item);
         
-        // [THEN] The Lager-CH fields should be accessible
-        // Note: "Swiss Warehouse Dealer Price" has Visible = false, so we only test if it exists
-        // "Swiss Warehouse Stock" should be visible and accessible
-        ItemCardPage."Swiss Warehouse Stock".SetValue(45.00);
-        Assert.AreEqual('45', ItemCardPage."Swiss Warehouse Stock".Value, 'Swiss Warehouse Stock field not accessible on Item Card');
+        // [THEN] The Lager-CH fields should be accessible and display the correct values
+        // "Swiss Warehouse Stock" should be visible and display the value (read-only)
+        Assert.AreEqual('45', ItemCardPage."Swiss Warehouse Stock".Value, 'Swiss Warehouse Stock field not displaying correctly on Item Card');
         
         ItemCardPage.Close();
     end;
